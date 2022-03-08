@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1649236c-a641-4881-acbc-c423464d963f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/UsineAssemblage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/UsineAssemblage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/UsineAssemblageVoiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/UsineAssemblageVoiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/VehiculeAMoteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/VehiculeAMoteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/entity/Voiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Classes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Getters_Setters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Getters_Setters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Heritage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Heritage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Methodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/notionsDeBase/Methodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/IncrementationDecrementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/IncrementationDecrementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/Amarrable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/Amarrable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/MainTravail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/MainTravail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/Vidangeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/Vidangeable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Bateau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Bateau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Mongolfiere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Mongolfiere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Port.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/UsineAssemblage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/UsineAssemblage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/UsineAssemblageVoiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/UsineAssemblageVoiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/VehiculeAMoteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/VehiculeAMoteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/entity/Voiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Classes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Getters_Setters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Getters_Setters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Heritage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Heritage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Methodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/notionsDeBase/Methodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/TypesPrimitifs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/TypesPrimitifs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/If_OperateurTernaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/If_OperateurTernaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/travail/structuresConditionnelles/While.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/boatAndCo/entity/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/boatAndCo/entity/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/boatAndCo/entity/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/boatAndCo/entity/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/travail/boatAndCo/BoatAndCoApplicationTravail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/travail/boatAndCo/BoatAndCoApplicationTravail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cours/Cours Java_Programmation Objet.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Cours Java_Programmation Objet.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cours/Proget oceans_Exercices.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Proget oceans_Exercices.pptx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="25HPcZU8MCzOAaBhBuuUJVcEhrW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Documents\Formation Afpa\RepoGitAFPA\Formation_Afpa_Java\code\MemoCode\src\main\travail" />
+      <recent name="E:\OneDrive\Documents\Formation Afpa\RepoGitAFPA\Formation_Afpa_Java\code\MemoCode\src\main\travail\ProgrammationObjet" />
+      <recent name="E:\OneDrive\Documents\Formation Afpa\RepoGitAFPA\Formation_Afpa_Java\code\MemoCode\src\main\travail\ProgrammationObjet\entity" />
+      <recent name="C:\Users\fredg\OneDrive\Documents\Formation Afpa\RepoGitAFPA\Formation_Afpa_Java\code\MemoCode\src\main\travail\ProgrammationObjet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.memo_Code.collections" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Heritage (1)">
+    <configuration name="Heritage (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.memo_Code.ProgrammationObjet.notionsDeBase.Heritage" />
+      <module name="Memo_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.memo_Code.ProgrammationObjet.notionsDeBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Heritage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.travail.ProgrammationObjet.notionsDeBase.Heritage" />
+      <module name="Memo_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.travail.ProgrammationObjet.notionsDeBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.memo_Code.ProgrammationObjet.Main" />
+      <module name="Memo_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.memo_Code.ProgrammationObjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTravail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.travail.ProgrammationObjet.MainTravail" />
+      <module name="Memo_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.travail.ProgrammationObjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Heritage (1)" />
+        <item itemvalue="Application.Heritage" />
+        <item itemvalue="Application.MainTravail" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1649236c-a641-4881-acbc-c423464d963f" name="Changes" comment="" />
+      <created>1645181120168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645181120168</updated>
+      <workItem from="1645181122148" duration="630000" />
+      <workItem from="1645198851422" duration="520000" />
+      <workItem from="1645200488564" duration="4413000" />
+      <workItem from="1645231382358" duration="2539000" />
+      <workItem from="1645296692446" duration="2308000" />
+      <workItem from="1645305883703" duration="35000" />
+      <workItem from="1645305956193" duration="18000" />
+      <workItem from="1645306034428" duration="1196000" />
+      <workItem from="1645349399229" duration="1234000" />
+      <workItem from="1645376471574" duration="5626000" />
+      <workItem from="1645425590455" duration="3369000" />
+      <workItem from="1645430380245" duration="7404000" />
+      <workItem from="1645456869433" duration="724000" />
+      <workItem from="1645461495698" duration="6422000" />
+      <workItem from="1645512653866" duration="12850000" />
+      <workItem from="1645538206675" duration="4778000" />
+      <workItem from="1645562546433" duration="6214000" />
+      <workItem from="1645606230429" duration="654000" />
+      <workItem from="1645607526348" duration="5769000" />
+      <workItem from="1645618683302" duration="10612000" />
+      <workItem from="1645651042767" duration="963000" />
+      <workItem from="1645684949371" duration="2834000" />
+      <workItem from="1645690078994" duration="2397000" />
+      <workItem from="1645694529649" duration="25000" />
+      <workItem from="1645694572693" duration="7409000" />
+      <workItem from="1645709365204" duration="3162000" />
+      <workItem from="1645769218972" duration="5979000" />
+      <workItem from="1645781994536" duration="251000" />
+      <workItem from="1645782291114" duration="1988000" />
+      <workItem from="1645795523212" duration="79000" />
+      <workItem from="1645795968149" duration="51000" />
+      <workItem from="1645813348653" duration="1406000" />
+      <workItem from="1645862285288" duration="5548000" />
+      <workItem from="1645954118594" duration="10810000" />
+      <workItem from="1645993658497" duration="3622000" />
+      <workItem from="1646029761767" duration="674000" />
+      <workItem from="1646031470800" duration="2000" />
+      <workItem from="1646034870080" duration="7712000" />
+      <workItem from="1646071664629" duration="4000" />
+      <workItem from="1646208387282" duration="2430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
