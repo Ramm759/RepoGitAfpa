@@ -1,4 +1,4 @@
-package com.mycompany.backend.backend.entity;
+package com.mycompany.backend.entity;
 
 public class Person {
     private String lastname;

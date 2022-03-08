@@ -1,4 +1,4 @@
-package com.mycompany.backend.backend.controller;
+package com.mycompany.backend.controller;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

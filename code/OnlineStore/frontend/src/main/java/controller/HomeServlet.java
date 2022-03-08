@@ -1,6 +1,6 @@
 package controller;
 
-import com.mycompany.backend.backend.entity.Person;
+import com.mycompany.backend.entity.Person;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
