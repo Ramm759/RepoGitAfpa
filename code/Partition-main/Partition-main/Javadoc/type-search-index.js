@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.espaceptc.mylibrary.Exceptions","l":"ListParamException"},{"p":"com.espaceptc.mylibrary","l":"MyLibrary"},{"p":"com.espaceptc.mylibrary","l":"MyLibraryTest"},{"p":"com.espaceptc.mylibrary.Exceptions","l":"SizeParamException"}];updateSearchResults();

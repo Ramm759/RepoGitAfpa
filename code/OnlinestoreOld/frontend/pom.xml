@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mycompany.onlinestore</groupId>
-    <artifactId>backend</artifactId>
+    <artifactId>frontend</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>backend</name>
+    <name>frontend</name>
     <packaging>war</packaging>
 
     <properties>
@@ -35,6 +35,12 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mycompany.backend</groupId>
+            <artifactId>backend</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

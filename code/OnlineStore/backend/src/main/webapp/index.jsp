@@ -2,11 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World From Backend</title>
+  <title>JSP - Backend</title>
 </head>
 <body>
-<h1><%= "Hello World From Backend!" %>
-</h1>
+<h1><%= "Online store Backend" %></h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
