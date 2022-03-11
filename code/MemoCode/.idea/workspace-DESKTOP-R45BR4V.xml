@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1649236c-a641-4881-acbc-c423464d963f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/Bateau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/memo_Code/ProgrammationObjet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/memo_Code/collections/Array_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/memo_Code/collections/TypesPrimitifs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/Bateau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/travail/ProgrammationObjet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/BoatAndCoCo/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/BoatAndCoCo/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/travail/BoatAndCoCo/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/travail/BoatAndCoCo/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/IncrementationDecrementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/IncrementationDecrementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ProgrammationObjet/Bateau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TypesPrimitifs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/memo_Code/TypesPrimitifs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/etapes/PremierString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/travail/etapes/PremierString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/etapes/PremiereVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjetOceans/src/com/mycompany/travail/etapes/PremiereVariable.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="25HPcZU8MCzOAaBhBuuUJVcEhrW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/travail/ProgrammationObjet" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fredg\OneDrive\Documents\Formation Afpa\RepoGitAFPA\Formation_Afpa_Java\code\MemoCode\src\main\travail\ProgrammationObjet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.memo_Code.collections" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Array_List">
+    <configuration name="Array_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.memo_Code.collections.Array_List" />
+      <module name="Memo_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.memo_Code.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.memo_Code.ProgrammationObjet.Main" />
+      <module name="Memo_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.memo_Code.ProgrammationObjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Array_List" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1649236c-a641-4881-acbc-c423464d963f" name="Changes" comment="" />
+      <created>1645181120168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645181120168</updated>
+      <workItem from="1645181122148" duration="630000" />
+      <workItem from="1645198851422" duration="520000" />
+      <workItem from="1645200488564" duration="4413000" />
+      <workItem from="1645231382358" duration="2539000" />
+      <workItem from="1645296692446" duration="2674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
