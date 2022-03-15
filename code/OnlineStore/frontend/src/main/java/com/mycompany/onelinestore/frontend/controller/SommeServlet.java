@@ -11,15 +11,15 @@ import java.io.PrintWriter;
 @WebServlet(name = "sommeServlet", urlPatterns = "/somme")
 public class SommeServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
 
-        String nombre1 = req.getParameter("nombre1");
-        String nombre2 = req.getParameter("nombre2");
+        String nombre1 = request.getParameter("nombre1");
+        String nombre2 = request.getParameter("nombre2");
 
         int somme = Integer.parseInt(nombre1) + Integer.parseInt(nombre2);
 
-        PrintWriter out = resp.getWriter();
+        PrintWriter out = response.getWriter();
 
         out.println("<html><body>");
         out.println("<h1> La somme des 2 nombres est " + somme + "</h1>");

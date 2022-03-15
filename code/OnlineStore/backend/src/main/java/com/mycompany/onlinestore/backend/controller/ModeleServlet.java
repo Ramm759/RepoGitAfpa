@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "HomeServlet", urlPatterns = "/test1")
+@WebServlet(name = "HomeServletTest", urlPatterns = "/test1")
 public class ModeleServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
 
-        String nombre1 = req.getParameter("nombre1");
-        Integer nombre2 = Integer.parseInt(req.getParameter("nombre2"));
+        String nombre1 = request.getParameter("nombre1");
+        Integer nombre2 = Integer.parseInt(request.getParameter("nombre2"));
 
-        PrintWriter out = resp.getWriter();
+        PrintWriter out = response.getWriter();
         String message = "Online Store, votre boutique en ligne (Backend)";
 
         out.println("<html><body>");

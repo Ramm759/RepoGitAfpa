@@ -11,12 +11,14 @@ import java.io.PrintWriter;
 @WebServlet(name = "HomeServlet", urlPatterns = "/home")
 public class HomeServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter out = resp.getWriter();
-        String message = "Online Store, votre boutique en ligne (Frontend)";
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        PrintWriter out = response.getWriter();
+        String message = "Online Store, votre boutique en ligne (Frontend)<br/>";
 
         out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
+        out.println("<h1>" + message + "</h1><br/>");
+        // Affichage identifiant + logout
+        out.print("Bonjour " + request.getSession().getAttribute("login") + "(<a href=\" logout\"> Déconnexion)</a><br/>");
 
         out.println(("<a href=\"login.html\">Login</a>"));
 

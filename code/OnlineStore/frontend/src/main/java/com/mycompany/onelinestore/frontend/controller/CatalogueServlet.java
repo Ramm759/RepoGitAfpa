@@ -16,9 +16,9 @@ import java.io.PrintWriter;
 @WebServlet(name = "CatalogueServlet", urlPatterns = "/catalogue")
 public class CatalogueServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        PrintWriter out = resp.getWriter();
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
 
         if (Catalogue.listOfWorks.isEmpty()) {
             Artist tomCruise = new Artist("Tom Cruise");

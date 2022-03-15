@@ -15,12 +15,12 @@ import java.io.PrintWriter;
 public class HelloServlet extends HttpServlet {
     private String message;
     @Override
-    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.setContentType("text/html");
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        response.setContentType("text/html");
         Person durand = new Person("David", "Dupond");
 
-        PrintWriter out = resp.getWriter(); // ouverture flux en écriture
-        resp.setContentType("text/html");
+        PrintWriter out = response.getWriter(); // ouverture flux en écriture
+        response.setContentType("text/html");
         
         String message = "Hello " + durand.getFirstname() + " " + durand.getLastname() + " from Frontend";
         out.println("<html><body>");

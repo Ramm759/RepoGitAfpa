@@ -15,14 +15,14 @@ import java.io.PrintWriter;
 @WebServlet(name = "Servlet", urlPatterns = "/add-work")
 public class AddWorkServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
 
-        String title = req.getParameter("title");
-        Integer release = Integer.parseInt(req.getParameter("release"));
-        String genre = req.getParameter("genre");
-        String summary = req.getParameter("summary");
-        String mainArtistName = req.getParameter("mainArtistName");
+        String title = request.getParameter("title");
+        Integer release = Integer.parseInt(request.getParameter("release"));
+        String genre = request.getParameter("genre");
+        String summary = request.getParameter("summary");
+        String mainArtistName = request.getParameter("mainArtistName");
 
         Artist mainArtist = new Artist(mainArtistName);
 
@@ -35,7 +35,7 @@ public class AddWorkServlet extends HttpServlet {
 
         Catalogue.listOfWorks.add(work);
 
-        PrintWriter out = resp.getWriter();
+        PrintWriter out = response.getWriter();
         String message = "L'oeuvre a bien été ajoutée au catalogue";
 
         out.println("<html><body>");

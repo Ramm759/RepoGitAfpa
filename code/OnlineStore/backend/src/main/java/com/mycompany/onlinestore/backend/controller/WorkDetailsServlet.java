@@ -14,10 +14,10 @@ import java.io.PrintWriter;
 @WebServlet(name = "WorkDetailServlet", urlPatterns = "/work-details")
 public class WorkDetailsServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
 
-        Long id = Long.parseLong(req.getParameter("id"));
+        Long id = Long.parseLong(request.getParameter("id"));
 
         Work work = null;
 
@@ -28,7 +28,7 @@ public class WorkDetailsServlet extends HttpServlet {
             }
         }
 
-        PrintWriter out = resp.getWriter();
+        PrintWriter out = response.getWriter();
 
         out.println("<html><body>");
         out.println("<h1 style = 'color:red;' >Descriptif de l'oeuvre </h1>");
@@ -37,6 +37,7 @@ public class WorkDetailsServlet extends HttpServlet {
         out.println("Genre : " + work.getGenre() + "<BR/></BR>");
         out.println("Artiste principal : " + work.getMainArtist().getName() + "</BR></BR>");
         out.println("Résumé : " + work.getSummary() + "<BR/></BR>");
+
         out.println("</body></html>");
 
 

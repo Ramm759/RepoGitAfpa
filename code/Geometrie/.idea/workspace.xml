@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="frontend:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13c99746-0c98-4a6d-9bac-0ce6c5f36e1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Carre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/FigureGeometriqueInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Quadrilatere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Trapeze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/TriangleRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/CalculPerimetre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/CalculSurface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/ModeleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/logoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/AddToCartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/AddWorkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/AddWorkServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CatalogueServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CatalogueServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/ModeleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/ModeleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/WorkDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/WorkDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CatalogueServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/ModeleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/ModeleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/WorkDetailsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CatalogueServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/ModeleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/ModeleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/WorkDetailsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/ModeleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/ModeleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/SommeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/SommeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/sommeFormulaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/somme/sommeFormulaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/testForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/checkboxModelForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/sommeFormulaire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/testForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cours/Exercice Geometrie/Exercice Geometrie.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Exercice Geometrie/Exercice Geometrie.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cours/Jee/Exercices Jee.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Jee/Exercices Jee.pptx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="26NUR2JQpu3Ebz7MNTym7Wb3Y9g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MemoCode" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Formation_Afpa_Java\repoGitAFPA\code\Geometrie\frontend\src\main\java\com\mycompany\geometrie\frontend\controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Frontend">
+    <configuration name="Backend" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.59" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/backend/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="backend:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/backend" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3f19670f-9462-4742-8106-6c28c0c652fb" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55222" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="backend:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Frontend" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.59" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/frontend/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="frontend:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/frontend" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ce3934e7-f9aa-42af-9d48-997c6783df65" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55221" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="frontend:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Frontend" />
+      <item itemvalue="Tomcat Server.Backend" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13c99746-0c98-4a6d-9bac-0ce6c5f36e1a" name="Changes" comment="" />
+      <created>1647263526130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647263526130</updated>
+      <workItem from="1647263527421" duration="2333000" />
+      <workItem from="1647270339692" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

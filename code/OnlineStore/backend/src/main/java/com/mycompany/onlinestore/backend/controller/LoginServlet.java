@@ -5,22 +5,27 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(name = "LoginServlet", urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
 
-        String login = req.getParameter("login");
-        String password = req.getParameter("password");
+        String login = request.getParameter("login");
+        String password = request.getParameter("password");
 
-        PrintWriter out = resp.getWriter();
+        PrintWriter out = response.getWriter();
 
         if (login.equals("michel") & password.equals("123456") | (login.equals("caroline") & password.equals("abcde"))){
             String message = "Authentification OK";
+
+            // Création de la session (ou récupération si déjà crée)
+            HttpSession session = request.getSession();
+            session.setAttribute("login", login);
 
             out.println("<html><body>");
             out.println("<h1>" + message + "</h1>");
