@@ -2,11 +2,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>OnlineStore-Administration</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
-<br/>
-<a href="home">Accueil (servlet Home)</a><br/>
+<h1><%= "OnlineStore - Administration" %>
+</h1><br/>
+
+<%
+    String login = (String) session.getAttribute("login");
+    if (login != null) {%>
+        Bonjour <%=login%> ( <a href="logout"> Déconnexion</a>)<br/>
+<%
+    }
+%>
+
+<a href="login.html">Login</a><br/>
+<a href="createCatalogue">Affichage du catalogue</a><br/>
+<a href="add-work-form.html">Ajouter une oeuvre</a>
+
 </body>
 </html>

@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
             out.println("<html><body>");
             out.println("<h1>" + message + "</h1>");
 
-            out.println(("<a href=\"home\">Accueil</a>"));
+            out.println(("<a href=\"index.jsp\">Accueil</a>"));
             out.println("</body></html>");
         }
         else {

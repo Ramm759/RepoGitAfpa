@@ -5,20 +5,19 @@ import com.mycompany.onlinestore.backend.entity.Artist;
 import com.mycompany.onlinestore.backend.entity.Catalogue;
 import com.mycompany.onlinestore.backend.entity.Work;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
-@WebServlet(name = "CatalogueServlet", urlPatterns = "/catalogue")
-public class CatalogueServlet extends HttpServlet {
+@WebServlet(name = "CatalogueServlet", urlPatterns = "/createCatalogue")
+public class CreateCatalogueServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
 
         if (Catalogue.listOfWorks.isEmpty()) {
             Artist tomCruise = new Artist("Tom Cruise");
@@ -74,17 +73,10 @@ public class CatalogueServlet extends HttpServlet {
             Catalogue.listOfWorks.add(minorityReport);
             Catalogue.listOfWorks.add(deutschland);
             Catalogue.listOfWorks.add(laSoupeAuxChoux);
+
+            request.setAttribute("listeDesOeuvres", Catalogue.listOfWorks);
+            RequestDispatcher requestDispatcher = request.getRequestDispatcher("/catalogue.jsp");
+            requestDispatcher.forward(request, response);
         }
-
-        out.println("<html>");
-        out.println("<body>");
-        out.println("<h1> Oeuvres au catalogue </h1>");
-
-        for (Work work : Catalogue.listOfWorks) {
-            out.println("<a href=\"work-details?id=" + work.getId() + "\">" + work.getTitle() + " (" + work.getRelease() + ")</a><BR/>");
-        }
-
-        out.println("</body>");
-        out.println("</html>");
     }
 }

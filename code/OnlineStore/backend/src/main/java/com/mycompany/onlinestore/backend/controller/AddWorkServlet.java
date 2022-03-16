@@ -4,6 +4,7 @@ import com.mycompany.onlinestore.backend.entity.Artist;
 import com.mycompany.onlinestore.backend.entity.Catalogue;
 import com.mycompany.onlinestore.backend.entity.Work;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,30 +19,51 @@ public class AddWorkServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
 
+        boolean success = true;
+
+        Work newWork = new Work();
+
+        try {
+            Integer release = Integer.parseInt(request.getParameter("release"));
+            newWork.setRelease(release);
+        } catch (NumberFormatException numberFormatException) {
+            success = false;
+        }
+
         String title = request.getParameter("title");
-        Integer release = Integer.parseInt(request.getParameter("release"));
         String genre = request.getParameter("genre");
         String summary = request.getParameter("summary");
         String mainArtistName = request.getParameter("mainArtistName");
 
         Artist mainArtist = new Artist(mainArtistName);
 
-        Work work = new Work();
-        work.setTitle(title);
-        work.setRelease(release);
-        work.setGenre(genre);
-        work.setSummary(summary);
-        work.setMainArtist(mainArtist);
+        newWork.setTitle(title);
+        newWork.setGenre(genre);
+        newWork.setSummary(summary);
+        newWork.setMainArtist(mainArtist);
 
-        Catalogue.listOfWorks.add(work);
+        // L'oeuvre existe t'elle déjà ?
+        for (Work work : Catalogue.listOfWorks) {
+            if (work.getTitle().equals(newWork.getTitle()) &
+                    work.getMainArtist().getName().equals(newWork.getMainArtist().getName()) &
+                    work.getRelease() == newWork.getRelease()) {
+                success = false;
+            }
+        }
 
-        PrintWriter out = response.getWriter();
-        String message = "L'oeuvre a bien été ajoutée au catalogue";
+        // redirection
+        RequestDispatcher requestDispatcher = null;
 
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
+        if (success){
+            Catalogue.listOfWorks.add(newWork);
+            request.setAttribute("identifiantOeuvre", newWork.getId());
+            requestDispatcher = request.getRequestDispatcher("/work-added-success");
+        }
+        else {
+            requestDispatcher = request.getRequestDispatcher("/work-added-failure");
+        }
 
-        out.println(("<a href=\"catalogue\">Retour au catalogue</a>"));
-        out.println("</body></html>");
+        requestDispatcher.forward(request, response);
+
     }
 }

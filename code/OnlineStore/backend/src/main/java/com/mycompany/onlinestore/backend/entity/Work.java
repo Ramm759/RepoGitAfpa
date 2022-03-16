@@ -2,7 +2,7 @@ package com.mycompany.onlinestore.backend.entity;
 
 public class Work {
     private long id;
-    private static int lastId = 0;
+    private static int lastId = 1;
     private String title;
     private String genre;
     private int release;
