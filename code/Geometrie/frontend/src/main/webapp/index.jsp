@@ -2,11 +2,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World from Frontend</title>
+  <title>Accueil</title>
 </head>
 <body>
-<h1><%= "Hello World from Frontend!" %></h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<form action=main-servlet>
+  <h1>Quelle opération souhaitez vous effectuer ?</h1><br/>
+  <input type="radio" name= "operation" value="surface" CHECKED>Calculer la surface<br/>
+  <input type="radio" name= "operation" value="perimeter">Calculer le périmètre<br/>
+  <input type="radio" name= "operation" value="hypotenuse">Calculer l'hypoténuse<br/>
+
+  <h1>Choisissez une figure géométrique</h1><br/>
+  <input type="radio" name= "figure" value="carre" CHECKED>Carré<br/>
+  <input type="radio" name= "figure" value="rectangle">Rectangle<br/>
+  <input type="radio" name= "figure" value="cercle">Cercle<br/><br/>
+
+  Côté : <input type="text" name="cote"/>    Longueur : <input type="text" name="longueur"/>
+  Largeur : <input type="text" name="largeur"/>    Base : <input type="text" name="base"/>
+  Hauteur : <input type="text" name="hauteur"/><br/><br/>
+
+  <input type=submit value=Valider>
+
+</form>
 </body>
 </html>
