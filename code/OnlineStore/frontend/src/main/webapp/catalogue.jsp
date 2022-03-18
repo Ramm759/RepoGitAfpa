@@ -9,6 +9,14 @@
 <body>
 <h1>Catalogue des oeuvres</h1>
 
+<%
+    for (Work work : Catalogue.listOfWorks) {%>
+<%=work.getTitle()%>(<%=work.getRelease()%>)<br/>
+<%}
+%>
 
+
+
+<%--<a href="work-details?id=${work.id}"> ${work.title} ${work.release}</a><br/>--%>
 </body>
 </html>

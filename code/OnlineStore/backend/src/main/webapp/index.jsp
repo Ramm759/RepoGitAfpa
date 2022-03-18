@@ -11,7 +11,13 @@
 <%
     String login = (String) session.getAttribute("login");
     if (login != null) {%>
+        <%-- Syntaxe sans JSP EL
         Bonjour <%=login%> ( <a href="logout"> Déconnexion</a>)<br/>
+
+        Syntaxe avec JSP EL --%>
+        Bonjour ${login} ( <a href="logout"> Déconnexion</a>)<br/>
+
+
 <%
     }
 %>

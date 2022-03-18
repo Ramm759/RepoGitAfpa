@@ -7,12 +7,12 @@
 <body>
 <form action=main-servlet>
   <h1>Quelle opération souhaitez vous effectuer ?</h1><br/>
-  <input type="radio" name= "operation" value="surface" CHECKED>Calculer la surface<br/>
+  <input type="radio" name= "operation" value="surface" >Calculer la surface<br/>
   <input type="radio" name= "operation" value="perimeter">Calculer le périmètre<br/>
   <input type="radio" name= "operation" value="hypotenuse">Calculer l'hypoténuse<br/>
 
   <h1>Choisissez une figure géométrique</h1><br/>
-  <input type="radio" name= "figure" value="carre" CHECKED>Carré<br/>
+  <input type="radio" name= "figure" value="carre" >Carré<br/>
   <input type="radio" name= "figure" value="rectangle">Rectangle<br/>
   <input type="radio" name= "figure" value="cercle">Cercle<br/><br/>
 

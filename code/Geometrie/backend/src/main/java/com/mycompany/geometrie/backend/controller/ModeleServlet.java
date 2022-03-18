@@ -1,5 +1,6 @@
-package com.mycompany.onelinestore.frontend.controller;
+package com.mycompany.geometrie.backend.controller;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,13 +18,10 @@ public class ModeleServlet extends HttpServlet {
         String nombre1 = request.getParameter("nombre1");
         Long release = Long.parseLong(request.getParameter("release"));
 
-        PrintWriter out = response.getWriter();
-        String message = "Online Store, votre boutique en ligne (Frontend)";
+        double perimetre = 4;
 
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-
-        out.println(("<a href=\"catalogue\">Catalogue des oeuvres</a>"));
-        out.println("</body></html>");
+        request.setAttribute("perimetre", perimetre);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/catalogue.jsp");
+        requestDispatcher.forward(request, response);
     }
 }

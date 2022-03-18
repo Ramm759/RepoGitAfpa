@@ -76,6 +76,8 @@ public class CreateCatalogueServlet extends HttpServlet {
             Catalogue.listOfWorks.add(laSoupeAuxChoux);
 
             request.setAttribute("listeDesOeuvres", Catalogue.listOfWorks);
+
+            // Redirection
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("/catalogue.jsp");
             requestDispatcher.forward(request, response);
         }

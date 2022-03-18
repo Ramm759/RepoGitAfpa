@@ -3,6 +3,7 @@ package com.mycompany.onelinestore.frontend.controller;
 import com.mycompany.onlinestore.backend.entity.Catalogue;
 import com.mycompany.onlinestore.backend.entity.Work;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -28,25 +29,10 @@ public class WorkDetailsServlet extends HttpServlet {
             }
         }
 
-        PrintWriter out = response.getWriter();
+        request.setAttribute("work", work);
 
-        out.println("<html><body>");
-        out.println("<h1 style = 'color:red;' >Descriptif de l'oeuvre </h1>");
-        out.println("Titre : " + work.getTitle() + "</BR></BR>");
-        out.println("Année de parution : " + work.getRelease() + "</BR></BR>");
-        out.println("Genre : " + work.getGenre() + "<BR/></BR>");
-        out.println("Artiste principal : " + work.getMainArtist().getName() + "</BR></BR>");
-        out.println("Résumé : " + work.getSummary() + "<BR/></BR>");
-
-        out.println("<form action=\"addToCart\" method=\"post\">");
-        out.println("<input type=\"hidden\" name=\"identifiant\" value = " +work.getId() + "  />   <br/><br/>");
-
-        out.println("<input type=\"submit\" value=\"Ajouter au caddie\">");
-        out.println("</form>");
-
-
-        out.println("</body></html>");
-
-
+        // Redirection
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/work-details.jsp");
+        requestDispatcher.forward(request, response);
     }
 }

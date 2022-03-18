@@ -10,61 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c99746-0c98-4a6d-9bac-0ce6c5f36e1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/webapp/catalogue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/somme/SommeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/somme/UnexpectedErrorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/modeleJsp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/testForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/unexpected-error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/webapp/affich-result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/webapp/ask-figure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/work-details.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Geometrie.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Geometrie.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/controller/ModeleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/controller/ModeleServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Carre.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Carre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Cercle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/FigureGeometriqueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/FigureGeometriqueInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Quadrilatere.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Quadrilatere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Trapeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Trapeze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/MainControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/MainControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/ask-operation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/ask-operation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/AddWorkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/AddWorkServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CatalogueServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/HomeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/entity/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/entity/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CatalogueServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/entity/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/entity/Work.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/AddWorkServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CatalogueServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/entity/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/entity/Work.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/WorkAddedSuccessServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/SommeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/WorkAddedFailureServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/catalogue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/catalogue.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/somme/sommeFormulaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/sommeFormulaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/AddToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/AddToCartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/SommeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/AddToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/AddToCartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/HomeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/ModeleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/SommeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/somme/sommeFormulaire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cours/Exercice Geometrie/Exercice Geometrie.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Exercice Geometrie/Exercice Geometrie.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cours/Jee/Exercices Jee.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Jee/Exercices Jee.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +59,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -105,14 +88,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MemoCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/main/webapp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Formation_Afpa_Java\repoGitAFPA\code\Geometrie\backend\src\main\webapp" />
       <recent name="E:\OneDrive\Formation_Afpa_Java\repoGitAFPA\code\Geometrie\frontend\src\main\java\com\mycompany\geometrie\frontend\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Formation_Afpa_Java\repoGitAFPA\code\Geometrie\frontend\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.geometrie.backend.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Frontend">
@@ -311,6 +302,14 @@
       <workItem from="1647270339692" duration="9000" />
       <workItem from="1647361207968" duration="1261000" />
       <workItem from="1647366062401" duration="116000" />
+      <workItem from="1647416542913" duration="2531000" />
+      <workItem from="1647419120718" duration="1736000" />
+      <workItem from="1647441033232" duration="806000" />
+      <workItem from="1647499373483" duration="7156000" />
+      <workItem from="1647511349915" duration="3000" />
+      <workItem from="1647530592615" duration="562000" />
+      <workItem from="1647584805501" duration="11000" />
+      <workItem from="1647586482437" duration="2166000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@
 <body>
 <a href="hello">Hello Servlet</a><br/>
 <a href="sommeFormulaire.html">Sommel</a><br/><br/>
-<a href="catalogue">Catalogue des oeuvres</a><br/>
+<a href="createCatalogue">Catalogue des oeuvres</a><br/>
 
 </body>
 </html>
