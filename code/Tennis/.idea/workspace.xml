@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11c74ab-0d81-4708-99b0-1e76ed15e070" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Geometrie/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/TestBdServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/DataSourceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestDeConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestJoueurRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/entity/Joueur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/memo/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/memo/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/JoueurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Geometrie.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Geometrie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Geometrie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Geometrie/frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Geometrie/frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Geometrie/frontend/target/frontend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Geometrie/frontend/target/frontend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Geometrie/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Geometrie/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestTournoiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/entity/Tournoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/TournoiRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestJoueurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestJoueurRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/JoueurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/JoueurRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/TestJoueurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/TestJoueurRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/repository/JoueurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/repository/JoueurRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +53,7 @@
       <recent name="com.afpa.tennis.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestJoueurRepository">
+  <component name="RunManager" selected="Application.TestTournoiRepository">
     <configuration name="Select" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.afpa.tennis.core.memo.Select" />
       <module name="core" />
@@ -105,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTournoiRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.afpa.tennis.core.TestTournoiRepository" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.afpa.tennis.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Update" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.afpa.tennis.core.memo.Update" />
       <module name="core" />
@@ -120,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTournoiRepository" />
         <item itemvalue="Application.TestJoueurRepository" />
         <item itemvalue="Application.TestDeConnection" />
         <item itemvalue="Application.Update" />
@@ -138,7 +140,7 @@
       <workItem from="1647592784098" duration="6657000" />
       <workItem from="1647677532082" duration="657000" />
       <workItem from="1647685195421" duration="22000" />
-      <workItem from="1647846968164" duration="13431000" />
+      <workItem from="1647846968164" duration="16998000" />
     </task>
     <servers />
   </component>

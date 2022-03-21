@@ -9,7 +9,7 @@ public class TestJoueurRepository {
     public static void main(String[] args) {
         JoueurRepository joueurRepository = new JoueurRepository();
 
-        // Recherche par Id
+        // Create
         Joueur noah = new Joueur();
         noah.setNom("Noah");
         noah.setPrenom("Yannickkkkkkk");
@@ -17,6 +17,11 @@ public class TestJoueurRepository {
 
         // joueurRepository.create(noah);
         // System.out.println("L'id du joueur cré est : " + noah.getId());
+
+
+        // getById
+        Joueur osaka = joueurRepository.getById(29L);
+        System.out.println("Le nom du joueur numéro 29 est " + osaka.getNom() + " " + osaka.getPrenom());
 
         // Update
         Joueur yNoah = joueurRepository.getById(82L);
