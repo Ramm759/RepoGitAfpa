@@ -10,44 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c99746-0c98-4a6d-9bac-0ce6c5f36e1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/webapp/affich-result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/webapp/ask-figure.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/work-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Geometrie.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Geometrie.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/TestBdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/src/main/java/com/afpa/tennis/core/TestDeConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/src/main/java/com/afpa/tennis/core/memo/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis/src/main/java/com/afpa/tennis/core/memo/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Geometrie.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/controller/ModeleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/controller/ModeleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Carre.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Carre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/FigureGeometriqueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/FigureGeometriqueInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Quadrilatere.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/geometrie/backend/entity/Quadrilatere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/backend-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/MainControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/com/mycompany/geometrie/frontend/controller/MainControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/ask-operation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/ask-operation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/java/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/backend-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/backend/target/classes/com/mycompany/onlinestore/backend/controller/CreateCatalogueServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/java/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/catalogue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/catalogue.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/CatalogueServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/mycompany/onelinestore/frontend/controller/WorkDetailsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineStore/frontend/target/frontend-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cours/Exercice Geometrie/Exercice Geometrie.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Exercice Geometrie/Exercice Geometrie.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cours/Jee/Exercices Jee.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../cours/Jee/Exercices Jee.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/lib/backend-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,6 +81,7 @@
       <recent name="E:\OneDrive\Formation_Afpa_Java\repoGitAFPA\code\Geometrie\frontend\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.geometrie.frontend.controller" />
       <recent name="com.mycompany.geometrie.backend.controller" />
     </key>
   </component>
@@ -309,7 +288,10 @@
       <workItem from="1647511349915" duration="3000" />
       <workItem from="1647530592615" duration="562000" />
       <workItem from="1647584805501" duration="11000" />
-      <workItem from="1647586482437" duration="2166000" />
+      <workItem from="1647586482437" duration="2757000" />
+      <workItem from="1647674531151" duration="2087000" />
+      <workItem from="1647848504416" duration="1238000" />
+      <workItem from="1647850038351" duration="394000" />
     </task>
     <servers />
   </component>
