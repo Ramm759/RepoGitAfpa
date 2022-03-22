@@ -28,7 +28,7 @@ public class MatchRepository {
                 match.setId(rs.getLong(1));
             }
 
-            System.out.println("Joueur Créé");
+            System.out.println("Match Créé");
 
         } catch (SQLException e) {
             e.printStackTrace();

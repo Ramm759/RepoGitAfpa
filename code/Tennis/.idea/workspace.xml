@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11c74ab-0d81-4708-99b0-1e76ed15e070" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestJoueurService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/TestMatchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/entity/Epreuve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/entity/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/entity/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/MatchRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/ScoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/JoueurService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/MatchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/TournoiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tennis.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/dao/MatchDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/MatchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/MatchRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/MatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/MatchService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +141,7 @@
       <workItem from="1647846968164" duration="17592000" />
       <workItem from="1647873342973" duration="683000" />
       <workItem from="1647877237775" duration="4000" />
-      <workItem from="1647934513486" duration="8070000" />
+      <workItem from="1647934513486" duration="10207000" />
     </task>
     <servers />
   </component>
