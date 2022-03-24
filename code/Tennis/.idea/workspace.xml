@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11c74ab-0d81-4708-99b0-1e76ed15e070" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/dao/MatchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/src/main/java/com/afpa/tennis/controller/JoueurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tennis-console-ui/src/main/java/com/afpa/tennis/controller/Ui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/MatchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/repository/MatchRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/MatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/afpa/tennis/core/service/MatchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/repository/MatchRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/repository/MatchRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/service/MatchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/afpa/tennis/core/service/MatchService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +35,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="ProjectId" id="26YFnoPEpFeYh5iGhcYhj0TiFds" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,15 +69,14 @@
       <recent name="E:\OneDrive\Formation_Afpa_Java\repoGitAFPA\code\Tennis\src\main\java\com\afpa\tennis\core" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.afpa.tennis.core" />
       <recent name="com.afpa.tennis.core.repository" />
       <recent name="com.afpa.tennis.core.service" />
-      <recent name="com.afpa.tennis.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMatchService">
-    <configuration name="TestDeConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.afpa.tennis.core.TestDeConnection" />
-      <module name="core" />
+  <component name="RunManager" selected="Application.TestEpreuveRepository">
+    <configuration name="TestEpreuveRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.afpa.tennis.core.TestEpreuveRepository" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.afpa.tennis.core.*" />
@@ -119,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEpreuveRepository" />
         <item itemvalue="Application.TestMatchService" />
         <item itemvalue="Application.TestJoueurService" />
         <item itemvalue="Application.TestTournoiRepository" />
         <item itemvalue="Application.TestJoueurRepository" />
-        <item itemvalue="Application.TestDeConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +163,9 @@
       <workItem from="1647846968164" duration="17592000" />
       <workItem from="1647873342973" duration="683000" />
       <workItem from="1647877237775" duration="4000" />
-      <workItem from="1647934513486" duration="10207000" />
+      <workItem from="1647934513486" duration="11066000" />
+      <workItem from="1647968025374" duration="713000" />
+      <workItem from="1647968798055" duration="975000" />
     </task>
     <servers />
   </component>
