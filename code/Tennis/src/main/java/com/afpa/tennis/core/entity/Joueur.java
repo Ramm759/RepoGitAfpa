@@ -1,7 +1,13 @@
 package com.afpa.tennis.core.entity;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "JOUEUR")
 public class Joueur {
-    private Long id; // pour pouvoir distinguer si la valeur est nulle ou vide
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Id généré par Mysql et auto-incrémenté
+    private Long id;
     private String nom;
     private String prenom;
     private Character sexe;

@@ -1,9 +1,20 @@
 package com.afpa.tennis.core.entity;
 
+import javax.persistence.*;
+
+@Entity
 public class Epreuve {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Id généré par Mysql et auto-incrémenté
     private Long id;
+
     private Short annee;
+
+    @ManyToOne (fetch = FetchType.LAZY) // Par défaut, fetchType = Eager
+    @JoinColumn(name = "ID_TOURNOI")
     private Tournoi tournoi;
+
+    @Column(name = "TYPE_EPREUVE", nullable = false, length = 20)
     private Character typeEpreuve;
 
     public Epreuve() {

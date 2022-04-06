@@ -1,8 +1,11 @@
 package com.afpa.tennis.core.repository;
 
 import com.afpa.tennis.core.DataSourceProvider;
+import com.afpa.tennis.core.HibernateUtil;
 import com.afpa.tennis.core.entity.Joueur;
 import org.apache.commons.dbcp2.BasicDataSource;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -10,41 +13,44 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JoueurRepository {
-    public void create(Joueur joueur) {
-        Connection conn = null;
+    /*public void renomme (Long id, String nouveauNom){
+        Joueur joueur = null;
+        Session session = null;
+        Transaction tx = null;
+
         try {
-            DataSource dataSource = DataSourceProvider.getSingleDatasource();
-            conn = dataSource.getConnection();
+            // Récupération session Hibernate
+            session = HibernateUtil.getSessionFactory().openSession();
 
-            PreparedStatement preparedStatement = conn.prepareStatement("INSERT INTO JOUEUR(NOM, PRENOM, SEXE) VALUES(?,?,?)", Statement.RETURN_GENERATED_KEYS);
+            // Création transaction avant modifications
+            tx = session.beginTransaction();
 
-            preparedStatement.setString(1, joueur.getNom());
-            preparedStatement.setString(2, joueur.getPrenom());
-            preparedStatement.setString(3, joueur.getSexe().toString());
+            // 1er parametre : Type à récupérer (Joueur), 2 eme parametre : clé
+            joueur = session.get(Joueur.class, id); // joueur est Persistant
 
-            preparedStatement.executeUpdate();
+            joueur.setNom(nouveauNom);
 
-            ResultSet rs = preparedStatement.getGeneratedKeys();
+            // Synchronisation avec la DB (flush)
+            tx.commit();
 
-            if (rs.next()) {
-                joueur.setId(rs.getLong(1));
+            System.out.println("Joueur renommé");
+        } catch (Throwable e) {
+            if (tx != null){
+                tx.rollback();
             }
-
-            System.out.println("Joueur Créé");
-
-        } catch (SQLException e) {
             e.printStackTrace();
 
         } finally {
-            try {
-                if (conn != null) {
-                    conn.close();
-
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
+            if (session != null) {
+                session.close();
             }
         }
+    }*/
+
+    public void create(Joueur joueur) {
+            // Récupération session Hibernate
+            Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+            session.persist(joueur);
     }
 
     public void update(Joueur joueur) {
@@ -80,71 +86,22 @@ public class JoueurRepository {
     }
 
     public void delete(Long id) {
-        Connection conn = null;
-        try {
-            DataSource dataSource = DataSourceProvider.getSingleDatasource();
-            conn = dataSource.getConnection();
+        Joueur joueur = getById(id);
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
-            PreparedStatement preparedStatement = conn.prepareStatement("DELETE FROM JOUEUR WHERE ID=?");
-
-            preparedStatement.setLong(1, id);
-
-            preparedStatement.executeUpdate();
-
-            System.out.println("Joueur Supprimé");
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-
-        } finally {
-            try {
-                if (conn != null) {
-                    conn.close();
-
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
+        session.delete(joueur);
+        System.out.println("Joueur Supprimé");
     }
 
     public Joueur getById(Long id) {
-        Connection conn = null;
-        Joueur joueur = new Joueur();
+        Joueur joueur = null;
+        Session session = null;
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
 
-        try {
-            DataSource dataSource = DataSourceProvider.getSingleDatasource();
-            conn = dataSource.getConnection();
+        joueur = session.get(Joueur.class, id);
 
-            PreparedStatement preparedStatement = conn.prepareStatement("SELECT NOM, PRENOM, SEXE FROM JOUEUR WHERE ID=?");
+        System.out.println("Joueur lu.");
 
-            preparedStatement.setLong(1, id);
-
-            ResultSet rs = preparedStatement.executeQuery();
-
-            if (rs.next()){
-                joueur = new Joueur();
-                joueur.setId(id);
-                joueur.setNom(rs.getString("NOM"));
-                joueur.setPrenom(rs.getString("PRENOM"));
-                joueur.setSexe(rs.getString("SEXE").charAt(0));
-            }
-
-            System.out.println("Joueur Lu");
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-
-        } finally {
-            try {
-                if (conn != null) {
-                    conn.close();
-
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
         return joueur;
     }
 
@@ -160,7 +117,7 @@ public class JoueurRepository {
 
             ResultSet rs = preparedStatement.executeQuery();
 
-            while (rs.next()){
+            while (rs.next()) {
                 Joueur joueur = new Joueur();
                 joueur.setId(rs.getLong("ID"));
                 joueur.setNom(rs.getString("NOM"));

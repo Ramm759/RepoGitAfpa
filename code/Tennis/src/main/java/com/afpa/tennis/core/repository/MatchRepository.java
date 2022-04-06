@@ -1,8 +1,11 @@
 package com.afpa.tennis.core.repository;
 
 import com.afpa.tennis.core.DataSourceProvider;
+import com.afpa.tennis.core.HibernateUtil;
+import com.afpa.tennis.core.entity.Joueur;
 import com.afpa.tennis.core.entity.Match;
 import com.afpa.tennis.core.entity.Score;
+import org.hibernate.Session;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -43,6 +46,18 @@ public class MatchRepository {
                 e.printStackTrace();
             }
         }
+    }
+
+    public Match getById(Long id) {
+        Match match = null;
+        Session session = null;
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
+
+        match = session.get(Match.class, id);
+
+        System.out.println("Joueur lu.");
+
+        return match;
     }
 }
 
