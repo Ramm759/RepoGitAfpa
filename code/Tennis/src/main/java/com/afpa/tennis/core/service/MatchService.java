@@ -2,9 +2,7 @@ package com.afpa.tennis.core.service;
 
 import com.afpa.tennis.core.HibernateUtil;
 import com.afpa.tennis.core.dao.MatchDao;
-import com.afpa.tennis.core.dto.EpreuveLightDto;
-import com.afpa.tennis.core.dto.JoueurDto;
-import com.afpa.tennis.core.dto.MatchDto;
+import com.afpa.tennis.core.dto.*;
 import com.afpa.tennis.core.entity.Epreuve;
 import com.afpa.tennis.core.entity.Match;
 import com.afpa.tennis.core.repository.MatchRepository;
@@ -60,6 +58,19 @@ public class MatchService {
 
             matchDto.setVainqueur(vainqueurDto);
             matchDto.setFinaliste(finalisteDto);
+
+            EpreuveFullDto epreuveFullDto = new EpreuveFullDto();
+            epreuveFullDto.setId(match.getEpreuve().getId());
+            epreuveFullDto.setAnnee(match.getEpreuve().getAnnee());
+            epreuveFullDto.setTypeEpreuve(match.getEpreuve().getTypeEpreuve());
+
+            TournoiDto tournoiDto = new TournoiDto();
+            tournoiDto.setId(match.getEpreuve().getTournoi().getId());
+            tournoiDto.setCode(match.getEpreuve().getTournoi().getCode());
+            tournoiDto.setNom(match.getEpreuve().getTournoi().getNom());
+
+            epreuveFullDto.setTournoi(tournoiDto);
+            matchDto.setEpreuveFullDto(epreuveFullDto);
 
             tx.commit();
 

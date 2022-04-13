@@ -38,6 +38,7 @@
         <mapping class="com.afpa.tennis.core.entity.Tournoi" />
         <mapping class="com.afpa.tennis.core.entity.Epreuve" />
         <mapping class="com.afpa.tennis.core.entity.Match" />
+        <mapping class="com.afpa.tennis.core.entity.Score" />
     </session-factory>
 
 </hibernate-configuration>

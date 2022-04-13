@@ -3,11 +3,15 @@ package com.afpa.tennis.core.service;
 import com.afpa.tennis.core.HibernateUtil;
 import com.afpa.tennis.core.dto.EpreuveFullDto;
 import com.afpa.tennis.core.dto.EpreuveLightDto;
+import com.afpa.tennis.core.dto.JoueurDto;
 import com.afpa.tennis.core.dto.TournoiDto;
 import com.afpa.tennis.core.entity.Epreuve;
+import com.afpa.tennis.core.entity.Joueur;
 import com.afpa.tennis.core.repository.EpreuveRepository;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+
+import java.util.HashSet;
 
 public class EpreuveService {
     private final EpreuveRepository epreuveRepository;
@@ -47,7 +51,7 @@ public class EpreuveService {
         return epreuve;
     }
 
-    public EpreuveFullDto getEpreuveAvecTournoi(Long id) {
+    public EpreuveFullDto getEpreuveDetaillee(Long id) {
         Session session = null;
         Transaction tx = null;
         Epreuve epreuve = null;
@@ -67,6 +71,17 @@ public class EpreuveService {
             tournoiDto.setId(epreuve.getTournoi().getId());
             tournoiDto.setNom(epreuve.getTournoi().getNom());
             tournoiDto.setCode(epreuve.getTournoi().getCode());
+
+            dto.setParticipants(new HashSet<JoueurDto>());
+
+            for(Joueur joueur : epreuve.getParticipants()){
+                final JoueurDto joueurDto = new JoueurDto();
+                joueurDto.setId(joueur.getId());
+                joueurDto.setNom(joueur.getNom());
+                joueurDto.setPrenom(joueur.getPrenom());
+                joueurDto.setSexe(joueur.getSexe());
+                dto.getParticipants().add(joueurDto);
+            }
 
             dto.setTournoi(tournoiDto);
 

@@ -1,7 +1,4 @@
-import com.afpa.tennis.controller.EpreuveController;
-import com.afpa.tennis.controller.JoueurController;
-import com.afpa.tennis.controller.MatchController;
-import com.afpa.tennis.controller.TournoiController;
+import com.afpa.tennis.controller.*;
 
 public class Ui {
     public static void main(String[] args) {
@@ -18,11 +15,14 @@ public class Ui {
         // tournoiController.creerTournoi();
         // tournoiController.deleteTournoi();
 
-        // EpreuveController epreuveController = new EpreuveController();
-        // epreuveController.afficheDerniereEpreuve();
+        EpreuveController epreuveController = new EpreuveController();
+        epreuveController.afficheDetailsEpreuve();
         // epreuveController.afficheRollandGarros();
 
-        MatchController matchController = new MatchController();
-        matchController.afficheDetailsMatch();
+        // MatchController matchController = new MatchController();
+        //matchController.afficheDetailsMatch();
+
+        // ScoreController scoreController = new ScoreController();
+        // scoreController.afficheDetailsScore();
     }
 }

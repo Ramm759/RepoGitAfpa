@@ -22,6 +22,8 @@ public class MatchController {
         MatchDto matchDto = matchService.getMatch(identifiant);
         System.out.println("Le vainqueur est " + matchDto.getVainqueur().getNom() + " " + matchDto.getVainqueur().getPrenom());
         System.out.println("Le finaliste est " + matchDto.getFinaliste().getNom() + " " + matchDto.getFinaliste().getPrenom());
+        System.out.println("Le match s'est déroulé en : "+ matchDto.getEpreuveFullDto().getAnnee());
+        System.out.println("Le tournoi s'est déroulé à " + matchDto.getEpreuveFullDto().getTournoi().getNom());
 
     }
 }

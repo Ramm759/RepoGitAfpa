@@ -1,6 +1,7 @@
 package com.afpa.tennis.core.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Epreuve {
@@ -16,6 +17,22 @@ public class Epreuve {
 
     @Column(name = "TYPE_EPREUVE", nullable = false, length = 20)
     private Character typeEpreuve;
+
+    @ManyToMany // Relation xx to Many en Lazy par défaut
+    @JoinTable(
+            name = "PARTICIPANTS",  // nom table de jointure
+            joinColumns = {@JoinColumn(name = "ID_EPREUVE")}, // nom colonne dans la table d'origine
+            inverseJoinColumns = {@JoinColumn(name = "ID_JOUEUR")} // nom colonne autre table
+    )
+    private Set<Joueur> participants;
+
+    public Set<Joueur> getParticipants() {
+        return participants;
+    }
+
+    public void setParticipants(Set<Joueur> participants) {
+        this.participants = participants;
+    }
 
     public Epreuve() {
     }

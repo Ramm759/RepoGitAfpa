@@ -1,8 +1,10 @@
 package com.afpa.tennis.core.repository;
 
 import com.afpa.tennis.core.DataSourceProvider;
+import com.afpa.tennis.core.HibernateUtil;
 import com.afpa.tennis.core.entity.Joueur;
 import com.afpa.tennis.core.entity.Score;
+import org.hibernate.Session;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -73,6 +75,19 @@ public class ScoreRepository {
             }
         }
     }
+
+    public Score getById(Long id) {
+        Score score = null;
+        Session session = null;
+        session = HibernateUtil.getSessionFactory().getCurrentSession();
+
+        score = session.get(Score.class, id);
+
+        System.out.println("Score lu.");
+
+        return score;
+    }
+
 }
 
 

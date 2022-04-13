@@ -1,16 +1,28 @@
 package com.afpa.tennis.core.entity;
 
-public class Score {
-    private Long id;
-    private Byte set1; // jamais > 255
-    private Byte set2;
-    private Byte set3;
-    private Byte set4;
-    private Byte set5;
-    private Match match;
+import javax.persistence.*;
 
-    public Score() {
-    }
+@Entity
+@Table(name = "SCORE_VAINQUEUR")
+public class Score {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Id généré par Mysql et auto-incrémenté
+    private Long id;
+
+    @Column(name = "SET_1", nullable = false, length = 20)
+    private Byte set1;
+
+    @Column(name = "SET_2", nullable = false, length = 20)
+    private Byte set2;
+
+    @Column(name = "SET_3", nullable = false, length = 20)
+    private Byte set3;
+
+    @Column(name = "SET_4", nullable = false, length = 20)
+    private Byte set4;
+
+    @Column(name = "SET_5", nullable = false, length = 20)
+    private Byte set5;
 
     public Long getId() {
         return id;
@@ -18,6 +30,13 @@ public class Score {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @OneToOne
+    @JoinColumn(name = "ID_MATCH")
+    private Match match;
+
+    public Score() {
     }
 
     public Byte getSet1() {
